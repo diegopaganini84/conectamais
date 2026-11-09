@@ -1,0 +1,40 @@
+{
+  "titulo": "Produtos de comunicação visual",
+  "descricao": "Peças para divulgar o seu negócio. Escolha um produto e peça o orçamento pelo WhatsApp.",
+  "banner": "/images/placeholders/banner-produtos.svg",
+  "banner_escurecer": 60,
+  "itens": [
+    {
+      "nome": "Cartões de visita",
+      "descricao": "Arte profissional para o seu cartão.",
+      "detalhes": "Consulte materiais, quantidades e prazos pelo WhatsApp.",
+      "preco": "",
+      "imagem": "/images/placeholders/produto-1.svg",
+      "galeria": []
+    },
+    {
+      "nome": "Adesivos personalizados",
+      "descricao": "Adesivos com a sua marca, em vários formatos.",
+      "detalhes": "Consulte formatos, medidas e quantidades pelo WhatsApp.",
+      "preco": "",
+      "imagem": "/images/placeholders/produto-2.svg",
+      "galeria": []
+    },
+    {
+      "nome": "Banners e faixas",
+      "descricao": "Para fachadas, eventos e promoções.",
+      "detalhes": "Consulte medidas e prazos pelo WhatsApp.",
+      "preco": "",
+      "imagem": "/images/placeholders/produto-3.svg",
+      "galeria": []
+    },
+    {
+      "nome": "Criação de logotipo",
+      "descricao": "Logotipo e identidade visual para a sua marca.",
+      "detalhes": "Consulte prazos e o que está incluso pelo WhatsApp.",
+      "preco": "",
+      "imagem": "/images/placeholders/produto-4.svg",
+      "galeria": []
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "titulo": "Trabalhos feitos",
+  "descricao": "Uma amostra de peças que já saíram da prancheta: logotipos, banners, cartões e adesivos.",
+  "banner": "/images/placeholders/banner-trabalhos.svg",
+  "banner_escurecer": 60,
+  "itens": [
+    {
+      "titulo": "Exemplo de logotipo",
+      "categoria": "Logotipos",
+      "descricao": "Imagem ilustrativa. Troque pelo seu trabalho real no painel.",
+      "imagem": "/images/placeholders/trabalho-1.svg",
+      "galeria": []
+    },
+    {
+      "titulo": "Exemplo de banner",
+      "categoria": "Banners e faixas",
+      "descricao": "Imagem ilustrativa. Troque pelo seu trabalho real no painel.",
+      "imagem": "/images/placeholders/trabalho-2.svg",
+      "galeria": []
+    },
+    {
+      "titulo": "Exemplo de cartão de visita",
+      "categoria": "Cartões de visita",
+      "descricao": "Imagem ilustrativa. Troque pelo seu trabalho real no painel.",
+      "imagem": "/images/placeholders/trabalho-3.svg",
+      "galeria": []
+    },
+    {
+      "titulo": "Exemplo de adesivo",
+      "categoria": "Adesivos",
+      "descricao": "Imagem ilustrativa. Troque pelo seu trabalho real no painel.",
+      "imagem": "/images/placeholders/trabalho-4.svg",
+      "galeria": []
+    },
+    {
+      "titulo": "Exemplo de logotipo 2",
+      "categoria": "Logotipos",
+      "descricao": "Imagem ilustrativa. Troque pelo seu trabalho real no painel.",
+      "imagem": "/images/placeholders/trabalho-5.svg",
+      "galeria": []
+    },
+    {
+      "titulo": "Exemplo de banner 2",
+      "categoria": "Banners e faixas",
+      "descricao": "Imagem ilustrativa. Troque pelo seu trabalho real no painel.",
+      "imagem": "/images/placeholders/trabalho-6.svg",
+      "galeria": []
+    }
+  ]
+}

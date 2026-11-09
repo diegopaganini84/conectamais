@@ -1,0 +1,37 @@
+{
+  "nome": "Conecta + Marketing Digital",
+  "logo": "/images/placeholders/logo.svg",
+  "favicon": "/images/placeholders/favicon.svg",
+  "hero_imagem": "/images/placeholders/hero.svg",
+  "hero_escurecer": 55,
+  "hero_titulo": "Conectamos a sua marca aos clientes certos",
+  "hero_subtitulo": "Marketing digital, gestão de redes sociais e comunicação visual para empresas que querem aparecer e vender mais.",
+  "whatsapp": "5516997277355",
+  "instagram": "conecta.maismkt",
+  "email": "",
+  "servicos": [
+    {
+      "icone": "📱",
+      "titulo": "Gestão de redes sociais",
+      "descricao": "Planejamento, artes e legendas para Instagram e Facebook, com estratégia pensada para o seu público."
+    },
+    {
+      "icone": "🎬",
+      "titulo": "Vídeos e Reels",
+      "descricao": "Vídeos curtos criados com inteligência artificial para chamar atenção e apresentar a sua marca."
+    },
+    {
+      "icone": "🖨️",
+      "titulo": "Comunicação visual",
+      "descricao": "Cartões de visita, adesivos, banners, faixas e outras peças para divulgar o seu negócio."
+    },
+    {
+      "icone": "✏️",
+      "titulo": "Criação de logotipo",
+      "descricao": "Identidade visual com cara de empresa grande, do logotipo às peças do dia a dia."
+    }
+  ],
+  "sobre_titulo": "Design com estratégia, de ponta a ponta",
+  "sobre_texto": "São cerca de 20 anos de estrada no design gráfico, agora unidos ao marketing digital.\nA Conecta + cuida da imagem da sua empresa na internet e no mundo real: do post no Instagram à faixa na fachada.",
+  "rodape": "Marketing digital e comunicação visual para a sua marca crescer."
+}

@@ -1,0 +1,48 @@
+{
+  "titulo": "Clientes",
+  "descricao": "Empresas que confiam na Conecta + para cuidar do Instagram e do Facebook.",
+  "banner": "/images/placeholders/banner-clientes.svg",
+  "banner_escurecer": 60,
+  "itens": [
+    {
+      "nome": "Guia Quase Tudo",
+      "segmento": "Guia comercial de Ibitinga",
+      "instagram": "guiaquasetudo1",
+      "resumo": "Divulgação do guia online e do comércio da cidade.",
+      "descricao": "Gestão do Instagram do Guia Quase Tudo, que reúne o comércio de Ibitinga em um só lugar: www.guiaquasetudo.com.br.",
+      "imagem": "/images/placeholders/cliente-1.svg",
+      "galeria": [],
+      "destaques": []
+    },
+    {
+      "nome": "André Renato Ternos",
+      "segmento": "Moda masculina e ternos",
+      "instagram": "andrerenatoternos_",
+      "resumo": "Ternos para casamentos, eventos e o dia a dia.",
+      "descricao": "Gestão do Instagram da loja André Renato Ternos, com conteúdo sobre ternos de casamento, eventos e estilo.",
+      "imagem": "/images/placeholders/cliente-2.svg",
+      "galeria": [],
+      "destaques": []
+    },
+    {
+      "nome": "SoFe Materiais Elétricos",
+      "segmento": "Materiais elétricos, iluminação e ferramentas",
+      "instagram": "sofemateriaiseletricos",
+      "resumo": "Posts, reels e stories para a loja de Ibitinga.",
+      "descricao": "Gestão do Instagram da SoFe Materiais Elétricos, com artes de campanha, ofertas e conteúdo do mascote Lumi.",
+      "imagem": "/images/placeholders/cliente-3.svg",
+      "galeria": [],
+      "destaques": []
+    },
+    {
+      "nome": "Empresa de Energia Solar",
+      "segmento": "Energia solar",
+      "instagram": "",
+      "resumo": "Troque pelo nome e pelas informações reais no painel.",
+      "descricao": "",
+      "imagem": "/images/placeholders/cliente-4.svg",
+      "galeria": [],
+      "destaques": []
+    }
+  ]
+}

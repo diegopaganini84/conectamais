@@ -1,0 +1,154 @@
+# Painel administrativo (Decap CMS) — Conecta + MKT
+# TROQUE "SEU-USUARIO/SEU-REPOSITORIO" pelo caminho do seu repositório no GitHub.
+backend:
+  name: github
+  repo: SEU-USUARIO/SEU-REPOSITORIO
+  branch: main
+
+locale: pt
+publish_mode: simple
+media_folder: images/uploads
+public_folder: /images/uploads
+site_url: https://SEU-SITE.netlify.app
+display_url: https://SEU-SITE.netlify.app
+
+collections:
+  # ------------------------------------------------------------------
+  - name: geral
+    label: "⚙️ Configurações do site"
+    files:
+      - name: config
+        label: "Logo, fundo da página inicial e contatos"
+        file: content/config.json
+        fields:
+          - { label: "Nome da empresa", name: nome, widget: string }
+          - { label: "Logo", name: logo, widget: image, hint: "Ideal: PNG com fundo transparente ou SVG, em cores claras (o site tem fundo escuro)." }
+          - { label: "Ícone da aba do navegador (favicon)", name: favicon, widget: image, required: false }
+          - { label: "Imagem de fundo da página inicial (testeira)", name: hero_imagem, widget: image, hint: "Ideal: imagem larga, 1920x1000 px ou maior." }
+          - { label: "Escurecer a imagem de fundo (%)", name: hero_escurecer, widget: number, value_type: int, min: 0, max: 90, default: 55, hint: "Quanto maior, mais escura a imagem e mais fácil de ler o texto." }
+          - { label: "Título principal", name: hero_titulo, widget: string }
+          - { label: "Subtítulo", name: hero_subtitulo, widget: text }
+          - { label: "WhatsApp (só números, com 55 na frente)", name: whatsapp, widget: string, hint: "Exemplo: 5516997277355" }
+          - { label: "Instagram (sem @)", name: instagram, widget: string }
+          - { label: "E-mail (opcional)", name: email, widget: string, required: false }
+          - label: "Serviços (aparecem na página inicial)"
+            name: servicos
+            widget: list
+            label_singular: "serviço"
+            summary: "{{fields.titulo}}"
+            fields:
+              - { label: "Ícone (emoji)", name: icone, widget: string, required: false }
+              - { label: "Título", name: titulo, widget: string }
+              - { label: "Descrição", name: descricao, widget: text, required: false }
+          - { label: "Título da seção Sobre", name: sobre_titulo, widget: string }
+          - { label: "Texto da seção Sobre", name: sobre_texto, widget: text }
+          - { label: "Frase do rodapé", name: rodape, widget: string }
+
+  # ------------------------------------------------------------------
+  - name: portfolios
+    label: "🗂️ Portfólios"
+    files:
+      # ---------------- CLIENTES ----------------
+      - name: clientes
+        label: "Clientes (gestão de Instagram)"
+        file: content/clientes.json
+        fields:
+          - { label: "Título da página", name: titulo, widget: string }
+          - { label: "Descrição da página", name: descricao, widget: text }
+          - { label: "Imagem de fundo da página (testeira)", name: banner, widget: image, required: false }
+          - { label: "Escurecer a imagem de fundo (%)", name: banner_escurecer, widget: number, value_type: int, min: 0, max: 90, default: 60 }
+          - label: "Clientes"
+            name: itens
+            widget: list
+            label_singular: "cliente"
+            summary: "{{fields.nome}}"
+            fields:
+              - { label: "Nome da empresa", name: nome, widget: string }
+              - { label: "Segmento", name: segmento, widget: string, required: false }
+              - { label: "Instagram (sem @)", name: instagram, widget: string, required: false }
+              - { label: "Resumo (aparece no cartão)", name: resumo, widget: string, required: false }
+              - { label: "Descrição completa (aparece ao clicar)", name: descricao, widget: text, required: false }
+              - { label: "Imagem principal (logo ou arte do cliente)", name: imagem, widget: image }
+              - label: "Mais imagens (posts, artes)"
+                name: galeria
+                widget: list
+                required: false
+                field: { label: "Imagem", name: imagem, widget: image }
+              - label: "Destaques (frases curtas, uma por linha)"
+                name: destaques
+                widget: list
+                required: false
+                field: { label: "Destaque", name: destaque, widget: string }
+
+      # ---------------- VÍDEOS ----------------
+      - name: videos
+        label: "Vídeos"
+        file: content/videos.json
+        fields:
+          - { label: "Título da página", name: titulo, widget: string }
+          - { label: "Descrição da página", name: descricao, widget: text }
+          - { label: "Imagem de fundo da página (testeira)", name: banner, widget: image, required: false }
+          - { label: "Escurecer a imagem de fundo (%)", name: banner_escurecer, widget: number, value_type: int, min: 0, max: 90, default: 60 }
+          - label: "Vídeos"
+            name: itens
+            widget: list
+            label_singular: "vídeo"
+            summary: "{{fields.titulo}}"
+            fields:
+              - { label: "Título", name: titulo, widget: string }
+              - { label: "Descrição", name: descricao, widget: text, required: false }
+              - { label: "Capa (imagem de prévia)", name: capa, widget: image, required: false }
+              - { label: "Link do vídeo (YouTube, Vimeo ou Google Drive)", name: video_url, widget: string, required: false, hint: "Recomendado para vídeos grandes. No YouTube, use 'Não listado'." }
+              - { label: "OU envie o arquivo do vídeo (MP4, até ~25 MB)", name: video_arquivo, widget: file, required: false, hint: "Se preencher o arquivo e o link, o arquivo enviado tem prioridade." }
+              - { label: "Formato", name: formato, widget: select, options: ["9:16", "16:9"], default: "9:16", hint: "9:16 = vertical (Reels/Stories). 16:9 = horizontal." }
+
+      # ---------------- PRODUTOS ----------------
+      - name: produtos
+        label: "Produtos de comunicação visual (o que você vende)"
+        file: content/produtos.json
+        fields:
+          - { label: "Título da página", name: titulo, widget: string }
+          - { label: "Descrição da página", name: descricao, widget: text }
+          - { label: "Imagem de fundo da página (testeira)", name: banner, widget: image, required: false }
+          - { label: "Escurecer a imagem de fundo (%)", name: banner_escurecer, widget: number, value_type: int, min: 0, max: 90, default: 60 }
+          - label: "Produtos"
+            name: itens
+            widget: list
+            label_singular: "produto"
+            summary: "{{fields.nome}}"
+            fields:
+              - { label: "Nome do produto", name: nome, widget: string }
+              - { label: "Descrição curta", name: descricao, widget: string, required: false }
+              - { label: "Detalhes (medidas, material, prazo)", name: detalhes, widget: text, required: false }
+              - { label: "Preço (texto livre, ex: A partir de R$ 50)", name: preco, widget: string, required: false }
+              - { label: "Imagem principal", name: imagem, widget: image }
+              - label: "Mais imagens"
+                name: galeria
+                widget: list
+                required: false
+                field: { label: "Imagem", name: imagem, widget: image }
+
+      # ---------------- TRABALHOS ----------------
+      - name: trabalhos
+        label: "Trabalhos feitos"
+        file: content/trabalhos.json
+        fields:
+          - { label: "Título da página", name: titulo, widget: string }
+          - { label: "Descrição da página", name: descricao, widget: text }
+          - { label: "Imagem de fundo da página (testeira)", name: banner, widget: image, required: false }
+          - { label: "Escurecer a imagem de fundo (%)", name: banner_escurecer, widget: number, value_type: int, min: 0, max: 90, default: 60 }
+          - label: "Trabalhos"
+            name: itens
+            widget: list
+            label_singular: "trabalho"
+            summary: "{{fields.titulo}} — {{fields.categoria}}"
+            fields:
+              - { label: "Título", name: titulo, widget: string }
+              - { label: "Categoria (vira filtro na página)", name: categoria, widget: string, hint: "Ex: Logotipos, Banners e faixas, Cartões de visita, Adesivos. Escreva sempre igual para agrupar." }
+              - { label: "Descrição", name: descricao, widget: text, required: false }
+              - { label: "Imagem principal", name: imagem, widget: image }
+              - label: "Mais imagens"
+                name: galeria
+                widget: list
+                required: false
+                field: { label: "Imagem", name: imagem, widget: image }
