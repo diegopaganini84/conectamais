@@ -5,22 +5,6 @@
   "banner_escurecer": 60,
   "itens": [
     {
-      "titulo": "Guia Quase Tudo",
-      "descricao": "Desenvolvimento de Mascotes",
-      "capa": "/images/placeholders/video-3.svg",
-      "video_url": "",
-      "video_arquivo": "/images/uploads/video.mp4",
-      "formato": "16:9"
-    },
-    {
-      "formato": "9:16",
-      "titulo": "Mascote Gui "
-    },
-    {
-      "formato": "9:16",
-      "titulo": "Gui O mascote "
-    },
-    {
       "formato": "9:16",
       "titulo": "Gui O Mascote"
     }
