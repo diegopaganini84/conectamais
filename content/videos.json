@@ -7,6 +7,12 @@
     {
       "formato": "9:16",
       "titulo": "Gui O Mascote"
+    },
+    {
+      "formato": "9:16",
+      "titulo": "Lumi O Mascote",
+      "descricao": "Lumi o Mascote da SoFe Materiais Elétricos ",
+      "video_arquivo": "/images/uploads/lumi.mp4"
     }
   ]
 }
