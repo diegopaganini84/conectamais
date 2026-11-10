@@ -5,28 +5,24 @@
   "banner_escurecer": 60,
   "itens": [
     {
-      "titulo": "Vídeo de exemplo — Reels",
-      "descricao": "Troque este item pelo seu vídeo real no painel.",
-      "capa": "/images/placeholders/video-1.svg",
-      "video_url": "",
-      "video_arquivo": "",
-      "formato": "9:16"
-    },
-    {
-      "titulo": "Vídeo de exemplo — Apresentação de mascote",
-      "descricao": "Troque este item pelo seu vídeo real no painel.",
-      "capa": "/images/placeholders/video-2.svg",
-      "video_url": "",
-      "video_arquivo": "",
-      "formato": "9:16"
-    },
-    {
-      "titulo": "Vídeo de exemplo — Institucional",
-      "descricao": "Troque este item pelo seu vídeo real no painel.",
+      "titulo": "Guia Quase Tudo",
+      "descricao": "Desenvolvimento de Mascotes",
       "capa": "/images/placeholders/video-3.svg",
       "video_url": "",
-      "video_arquivo": "",
+      "video_arquivo": "/images/uploads/video.mp4",
       "formato": "16:9"
+    },
+    {
+      "formato": "9:16",
+      "titulo": "Mascote Gui "
+    },
+    {
+      "formato": "9:16",
+      "titulo": "Gui O mascote "
+    },
+    {
+      "formato": "9:16",
+      "titulo": "Gui O Mascote"
     }
   ]
 }
