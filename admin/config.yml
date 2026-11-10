@@ -9,8 +9,8 @@ locale: pt
 publish_mode: simple
 media_folder: images/uploads
 public_folder: /images/uploads
-site_url: diegopaganini84/conectamais
-display_url: diegopaganini84/conectamais
+site_url: https://conectamaisibi.netlify.app
+display_url: https://conectamaisibi.netlify.app
 
 collections:
   # ------------------------------------------------------------------
