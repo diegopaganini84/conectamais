@@ -15,6 +15,12 @@
       "titulo": "Lumi O Mascote",
       "descricao": "Lumi o Mascote da SoFe Materiais Elétricos ",
       "video_arquivo": "/images/uploads/lumi.mp4"
+    },
+    {
+      "formato": "9:16",
+      "titulo": "Solano ",
+      "descricao": "Mascote da Sol a Sol Energia Solar",
+      "video_arquivo": "/images/uploads/solano.mp4"
     }
   ]
 }
