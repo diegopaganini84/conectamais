@@ -2,15 +2,15 @@
 # TROQUE "SEU-USUARIO/SEU-REPOSITORIO" pelo caminho do seu repositório no GitHub.
 backend:
   name: github
-  repo: SEU-USUARIO/SEU-REPOSITORIO
+  repo: diegopaganini84/conectamais
   branch: main
 
 locale: pt
 publish_mode: simple
 media_folder: images/uploads
 public_folder: /images/uploads
-site_url: https://SEU-SITE.netlify.app
-display_url: https://SEU-SITE.netlify.app
+site_url: diegopaganini84/conectamais
+display_url: diegopaganini84/conectamais
 
 collections:
   # ------------------------------------------------------------------
