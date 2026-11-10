@@ -1,14 +1,8 @@
 {
-  "nome": "Conecta + Marketing Digital",
-  "logo": "/images/placeholders/logo.svg",
-  "favicon": "/images/placeholders/favicon.svg",
-  "hero_imagem": "/images/placeholders/hero.svg",
-  "hero_escurecer": 55,
-  "hero_titulo": "Conectamos a sua marca aos clientes certos",
-  "hero_subtitulo": "Marketing digital, gestão de redes sociais e comunicação visual para empresas que querem aparecer e vender mais.",
+  "logo": "/images/uploads/chatgpt-image-8-de-ago.-de-2026-17_15_42.png",
+  "rodape": "Marketing digital e comunicação visual para a sua marca crescer.",
   "whatsapp": "5516997277355",
   "instagram": "conecta.maismkt",
-  "email": "",
   "servicos": [
     {
       "icone": "📱",
@@ -31,7 +25,13 @@
       "descricao": "Identidade visual com cara de empresa grande, do logotipo às peças do dia a dia."
     }
   ],
-  "sobre_titulo": "Design com estratégia, de ponta a ponta",
+  "favicon": "/images/placeholders/favicon.svg",
+  "hero_subtitulo": "Marketing digital, gestão de redes sociais e comunicação visual para empresas que querem aparecer e vender mais.",
+  "hero_imagem": "/images/placeholders/hero.svg",
+  "hero_escurecer": 55,
+  "nome": "Conecta + Marketing Digital",
   "sobre_texto": "São cerca de 20 anos de estrada no design gráfico, agora unidos ao marketing digital.\nA Conecta + cuida da imagem da sua empresa na internet e no mundo real: do post no Instagram à faixa na fachada.",
-  "rodape": "Marketing digital e comunicação visual para a sua marca crescer."
+  "email": "",
+  "hero_titulo": "Conectamos a sua marca aos clientes certos",
+  "sobre_titulo": "Design com estratégia, de ponta a ponta"
 }
