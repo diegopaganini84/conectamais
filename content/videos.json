@@ -6,7 +6,9 @@
   "itens": [
     {
       "formato": "9:16",
-      "titulo": "Gui O Mascote"
+      "titulo": "Gui O Mascote",
+      "video_arquivo": "/images/uploads/video.mp4",
+      "descricao": "Mascote do Guia Quase Tudo"
     },
     {
       "formato": "9:16",
